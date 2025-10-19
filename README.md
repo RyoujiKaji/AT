@@ -1,4 +1,5 @@
 # AT
+```mermaid
 flowchart TD
     %% Define external entities
     OT_SPECIALIST[Специалист по охране труда]
@@ -21,3 +22,4 @@ flowchart TD
 
     LPS -- "Запрос на запись / обновление" --> DB
     DB -- "Результат запроса<br/>данные" --> LPS
+```
